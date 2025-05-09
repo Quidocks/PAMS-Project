@@ -1,10 +1,10 @@
-
 public class AppointmentNode {
-    PatientAppointment data;
-    AppointmentNode left, right;
+    public PatientAppointment data;
+    public AppointmentNode left;
+    public AppointmentNode right;
 
-    public AppointmentNode(PatientAppointment data) {
-        this.data = data;
+    public AppointmentNode(PatientAppointment appointment) {
+        this.data = appointment;
         this.left = null;
         this.right = null;
     }
